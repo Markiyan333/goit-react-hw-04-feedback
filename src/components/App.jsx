@@ -9,6 +9,8 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
 
+
+  
   const staticState = (state) => {
     switch (state) {
       case 'good':
